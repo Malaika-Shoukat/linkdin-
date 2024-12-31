@@ -1,0 +1,385 @@
+*{
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:rgba(230, 228, 228, 0.788);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    padding: 0.3rem;
+    background: rgb(253, 253, 253);
+  
+    
+}
+.navBarleft,.navBarright{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+.navBarleft{
+    padding-left: 4rem;
+    gap: o.1rem;
+}
+.logo{
+    font-size: 42px;
+    color: rgb(58, 58, 180);
+}
+.search{
+    background: rgb(237, 239, 241);
+    border-radius: 5px;
+    padding: 8px 30px ;
+}
+.search input{
+    border: none;
+    background: rgb(237, 239, 241);
+}
+.search i{
+    font-size: smaller; 
+}
+.navBarright{
+   align-items: center;
+    text-align: center;
+    font-size: 17px;
+    padding-right: 4rem;
+}
+
+.myNetwork,.Message,.Job,.Notification,.me,.business,.Premimum{
+    color: rgb(122, 121, 121);
+}
+
+.home i,.myNetwork i,.Message i,.Job i,.Notification i{
+    font-size: 23px;
+    row-gap: 10px;
+}
+.me img{
+    width: 25px;
+    height: 22px;
+    border-radius: 50%;
+}
+.business,.Premimum{
+    color: rgb(45, 44, 44);
+}
+.myNetwork:hover,.Message:hover,.Job:hover,.Notification:hover,.me:hover {
+    color: black;
+}
+ /* header Section end  */
+ .mainSection{
+    display: grid;
+    grid-template-columns: 25% 48% 25%;
+    gap: 1px;
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 20px;
+ }
+.leftMain,.RightMain{
+    background-color:white;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 201, 201);
+   
+}
+.middle{
+    background-color:white;
+    width: 490px;
+    height: 600px;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 201, 201);
+}
+.leftMain{
+    position: relative;
+    overflow: hidden;   
+    height: 500px;
+}
+.top{
+  
+    background-color:grey ;
+    height:  70px;
+    
+}
+.profile img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    left: 20px;
+ top: 35px;
+ border: 2px solid white;
+    position: absolute;
+}
+.name {
+    margin: 0px auto;
+    padding-top: 18px;
+    padding-left: 20px;
+}
+.name a{
+    color: rgb(70, 69, 69);
+    font-size: 12px;
+    text-decoration-line: none;
+}
+.name h6{
+    color: rgb(153, 148, 148);
+    font-size: 11px;
+}
+.launchpad,.trial {
+    padding-top: 8px;
+    display: flex;
+    padding-bottom: 15px;
+    word-spacing: 5px;
+    font-size: 14px;
+}
+.name p{
+    padding-top: 10px;
+    color:grey;
+    font-size: 12px;
+
+}
+.trial i{
+    color: rgb(226, 168, 9);
+    padding-right: 8px;
+}
+.trial {
+    font-size: 12px;
+}
+.trial:hover{
+    color: rgb(20, 80, 150);
+}
+.profile{
+    padding-top:15px ;
+    padding-bottom:15px ;
+    font-size: 14px;
+   
+}
+.profile span {
+   padding-left: 95px;
+    color: rgb(31, 169, 214);
+   
+}
+.saved{
+    padding-top: 10px;
+   color: rgb(48, 47, 47); 
+   font-size: 14px;
+}
+.saved i{
+  padding-right: 15px;
+  color: rgb(14, 13, 13);
+  font-size: 14px;
+}
+
+
+
+/* <!-- left main section end --> */
+.startPost{
+    padding-top: 10px;
+    padding-left: 20px;
+    display: flex;
+}
+.startPost img{ 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+}
+.startPost button{
+    margin-top: 2px;
+    margin-left: 9px;
+padding:10px 138px 10px 12px;
+    border: 1px solid rgb(165, 162, 162);
+    border-radius: 25px;
+    color: rgb(65, 63, 63); 
+   background-color: white;
+   
+}
+.mainIcons{
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+    color: rgb(65, 63, 63); 
+    
+}
+.mainIcons .madia i,
+.mainIcons .event i,
+.mainIcons .writing i{
+    font-size: 17px;
+    padding-right: 8px;
+}
+.mainIcons .madia i{
+   color: rgb(31, 137, 236);
+ }
+ .mainIcons .event i{
+    color: rgb(179, 105, 10);
+ }
+ .mainIcons .writing i{
+    color: rgb(235, 120, 13);
+ }
+
+
+  .grouprofile{
+    position: relative;
+   
+ }
+ .accountProfile{
+ padding-top: 20px;
+ 
+}
+
+ .accountProfile h5,
+ .accountProfile h6{
+
+    padding-left: 85px;
+}
+.python,.photo{
+    position: absolute;
+    
+}
+.python{
+    width: 50px;
+    top: 19px;
+    left: 15px;
+}
+.photo{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    top: 40px;
+     left: 40px;
+}
+.accountProfile h6{
+    color: black;    
+}
+.content{
+    padding-top: 15px;
+  padding-left: 15px;
+  font-size: small;
+}
+.question{
+    margin: 5px 15px;
+    border: 1px solid rgb(165, 162, 162);
+    border-radius: 8px;
+    padding: 15px;
+}
+.question a{
+    text-decoration: none;
+    color: rgb(66, 148, 224);
+}
+.question a:hover{
+    text-decoration: underline;
+
+}
+.question h6{
+    padding-top:2px ;
+    
+}
+ .time,.personalization,.LearningNewSkills,.stayingConnected{
+    margin-top:6px ;
+    border-radius: 25px;
+    color: rgb(66, 148, 224);
+    border: 1.8px solid rgb(31, 137, 236);
+    background-color: white;
+    font-weight: bold;
+}
+.time{
+    padding: 6px 160px;
+}
+.personalization{
+    padding: 6px 152px;
+}
+.LearningNewSkills{
+    padding: 6px 138px;
+}
+.stayingConnected{
+    padding: 6px 140px;
+}
+.time:hover,
+.personalization:hover,
+.LearningNewSkills:hover,
+.stayingConnected:hover{
+    color: lightskyblue;
+}
+.votes{
+    margin-top: 10px;
+    color: rgb(165, 162, 162);
+font-size: 14px;
+}
+.rectionEmoji{
+    display: flex;
+    margin: 10px;
+   
+}
+.clap{
+    margin-right: -6px;
+}
+.postFooter{
+    display: flex;
+    padding: 10px 0px 10px 0px;
+    justify-content: space-evenly;
+   
+}
+.postFooter i{
+    padding-right: 5px;
+    
+}
+.RightMain{
+padding:10px;
+}
+
+
+.RightMain{
+    height: 350px;
+}
+.accounts{
+   padding: 15px 5px 5px 55px;
+}
+.img1,.img2,.img3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.photo1{
+    position: relative;
+}
+.img1{
+    position: absolute;
+    right: 175px; 
+
+}
+.img2{
+    position: absolute;
+   right: 312px;
+
+}
+.img3 {
+    position: absolute;
+   right: 312px;
+}
+.photo1 p,.photo2 p,.photo3 p{
+    padding: 5px 0px 5px 0px;
+    color: rgb(110, 110, 110);
+    font-size: 12px;
+}
+.photo1 button,.photo2 button,.photo3 button{
+background-color: white;
+border-radius: 30px;
+color: rgb(88, 88, 88);
+font-weight: bolder;
+border: 1px solid rgb(39, 38, 38);
+padding: 7px 20px;
+margin-bottom: 15px;
+cursor: pointer;
+}
+.photo1 button:hover,
+.photo2 button:hover,
+.photo3 button:hover{
+    background-color: rgb(238, 236, 236);
+}
+.lastfooter{
+    margin: 0px;
+}
